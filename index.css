@@ -5,6 +5,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.f-size-cus{
+	font-size: 18px;
+	font-weight: bold;
+	color: #3746EC;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 .display-flexcustom {
 	display: flex;
 	flex-direction: column;
@@ -186,14 +195,30 @@ body .fixed-top .logo:hover {
 	border-radius: 10px;
 	color: var(--blue);
 	background: white;
-	height: 440px;
+	height: 600px;
 }
 
 .bg-custom img {
 	border: 1px solid #3746EC;
 	border-radius: 10px;
-	height: 150px;
-	max-width: 300px;
+	height: 300px;
+	max-width: 400px;
+}
+.bg-custom2 {
+	border: 2px solid #3746EC ;
+	border-radius: 10px;
+	color: var(--blue);
+	background: white;
+	height: 400px;
+	
+	
+}
+
+.bg-custom2 img {
+	border: 1px solid #3746EC;
+	border-radius: 10px;
+	height: 300px;
+	max-width: 400px;
 }
 .text-black {
 	color: black;
@@ -249,6 +274,7 @@ overflow-y:auto;
 		border-right: 1px solid #3746EC;
 		font-weight: bold;
 		margin-bottom: -5px;
+		color: #3746EC;
 	}
 	.input-field {
 		margin-top: -2px;
@@ -266,6 +292,7 @@ overflow-y:auto;
 		border-radius: 7px;
 		font-weight:lighter;
 		font-size:large;
+		margin-top: 10px;
 		margin-bottom: 10px;
 		color: #FFFFFF;
 		font-size: 20px;
