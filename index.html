@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap Components</title>
+	<link rel="stylesheet" href="./index.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/51460444e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+	  <a class="navbar-brand font-weight-bold logo" href="#home">Sherwin</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  	<div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item px-2 center-cus nav-hover-cus">
+		        <a class="nav-link text-dark nav-hover-cus" href="#home">Home</a>
+		      </li>
+		      <li class="nav-item px-2 center-cus nav-hover-cus">
+		        <a class="nav-link text-dark" href="#aboutme">About Me</a>
+		      </li>
+		      <li class="nav-item px-2 center-cus nav-hover-cus">
+		        <a class="nav-link text-dark" href="#project">Project</a>
+		      </li>
+		      <li class="nav-item px-2 center-cus">
+		        <a class="nav-link" href="#contactme"><button class="btn-cus">Contact me</button></a>
+		      </li>
+		    </ul>
+ 		</div>
+	</nav>
+	<!-- Navbar End -->
+	<main class="container-fluid text-center">
+	
+			<div id="home" class="profile-section min-vh-100 col-sm-12 d-block d-sm-block">
+				<!-- Profile Section -->
+				<section class="profile-image col-md-12 col-lg-6 col-sm-12">
+					<img data-aos="zoom-in" class="mt-5 mt-md-0 rounded-circle img-border" src="./images/profile.jpg" alt="Profile Picture of a Handsome Person" width="350" height="350">
+					<div data-aos="fade-right" class="floating-object1">
+						<p>Frontend Developer</p>
+					</div>
+					<div data-aos="fade-left" class="floating-object2">
+						<p>Backend Developer</p>
+					</div>
+					<img data-aos="fade-down-left" class="floating-object3" src="./images/airplane.png" alt="airplane" width="100" height="100">
+				</section>
+				<section class="profile-details col-md-12 col-lg-6 col-sm-12">
+					<div>
+						<h3>Hi I am</h3>
+						<h1>
+							<div class="row">
+								<div class="col" data-aos="fade-up">S</div>
+								<div class="col" data-aos="fade-down">H</div>
+								<div class="col" data-aos="fade-up">E</div>
+								<div class="col" data-aos="fade-down">R</div>
+								<div class="col" data-aos="fade-up">W</div>
+								<div class="col" data-aos="fade-down">I</div>
+								<div class="col" data-aos="fade-up">N</div>
+							</div>
+						</h1>
+							
+						<div class="mb-4" data-aos="zoom-in">Bautista</div>
+						<h5>Frontend Developer</h5>
+						<h6 class="text-muted">From Makati, Philippines</h6>
+					</div>
+					<div>
+						<a href="#contactme"><button class="btn-cus mt-4">Hire me</button></a>
+					</div>
+				</section>
+				
+			</div>
+
+			<div data-aos="fade-up" data-aos-duration="3000" id="aboutme" class="d-block d-sm-block about-me-section min-vh-100 col-sm-12">
+				<hr>
+				<div data-aos="flip-down" class="pt-5 pt-md-5"><h2>About Me</h2></div>
+				
+				<div class="container-fluid mt-3">
+					
+					<div class="row">
+						<div class="col-md-8 col-lg-6 pt-5 mx-auto">
+							<p class="text-lg-left"><span>Hi I'm </span><span class="border-bottom border-primary">Sherwin Bautista</span></p>
+							<p class="text-lg-left">I'm a web developer located in Makati Philippines.</p>
+							<p class="text-lg-left">I have a serious passion in computer programming and I love to turn ideas into reality.
+							<p class="text-lg-left">I'm looking for interesting projects where I can get an experience with new
+							  technologies and can apply my skills. I'm open to any specific projects as you need :)</p>
+							
+						</div>
+						<div class="col-md-12 col-lg-6">
+							<h1 class="d-lg-none .d-lg-block">Skills</h1>
+							<div class="parent-card mt-5 pt-2">
+								<div data-aos="fade-right" class="skillOne card-left">
+									<img src="./images/amaze.png" alt="emoji" width="70" height="70">
+									<h3>Frontend</h3>
+									<p>HTML, CSS, Bootstrap</p>
+								</div>
+
+								<div class="card-right pt-2">
+									<div data-aos="fade-down"  class="skillTwo">
+										<img src="./images/cat.webp" alt="emoji" width="100" height="70">
+										<h3>Backend</h3>
+										<p>Javascript, PHP, MySql</p>
+									</div>
+									<div data-aos="fade-up" class="skillThree mt-2">
+										<img src="./images/coolcat.webp" alt="emoji" width="100" height="70">
+										<h3>Fullstack</h3>
+										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi id sequi deserunt</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+						
+					</div>
+				</div>
+
+				
+			</div>
+			<div data-aos="fade-up" data-aos-duration="3000" id="project" class="d-block d-sm-block min-vh-100 col-sm-12">
+				<h2 class="pt-5">Other Projects</h2>
+				<div class="d-lg-flex justify-content-around p-md-5 text-light">
+					<!-- HTML Card Start -->
+					<div data-aos="fade-right" class="col-lg-4 mb-5 mb-lg-2">
+						<div class="card-body bg-custom ">
+							<img src="./images/paluwagan.png" class="card-img-top" alt="Project Image" height="200px">
+							<h5 class="card-title mt-3 text-black">Paluwagan tracker</h5>
+							<h6 class="card-subtitle text-muted mb-2">Web based</h6>
+							<p class="card-text">
+								Paluwagan tracker is a mobile friendly app where-in you can manage the whole account. Together with your members, you can have your unique user id and password.
+							</p>
+							<a href="http://sherwin-bautista-paluwagan.epizy.com/login.php" class="card-link text-light">Link to Project</a>
+						</div>
+					</div>
+					<!-- HTML Card END -->
+					
+					<!-- Node JS Card Start -->
+					<div data-aos="fade-left" class="col-lg-4 mb-5 mb-lg-2">
+						<div class="card-body bg-custom ">
+							<img src="./images/messenger.png" class="card-img-top" alt="Project Image">
+							<h5 class="card-title mt-3 text-black">Simple Messenger app</h5>
+							<h6 class="card-subtitle text-muted mb-2">Web based with ajax support</h6>
+							<p class="card-text">
+								Simple messenger app - you can create your username and password and chat with each other in real-time.
+							</p>
+							<a href="http://sherwin-bautista2.epizy.com/log-in.php" class="card-link text-light">Link to Project</a>
+						</div>
+					</div>
+					<!-- Node JS Card END -->
+				</div>
+			</div>
+			<hr>
+			<div data-aos="fade-up" id="contactme" class="d-block d-sm-block contact-me-section min-vh-100 col-sm-12">
+				<h1>Let's get in touch</h1>
+			
+				<div class="contact-me-section">
+					
+					<div class="text-center col-lg-4 mb-5 mb-lg-2">
+						
+						<div class="login-title pt-5"></div>
+							<div data-aos="zoom-in" class="login-form">
+								<center><H2>Send me a message</H2></center>
+				
+				
+							<form action="" method="POST">
+								<div data-aos="fade-right" class="username-field">
+									<label for="name" class="label-field">Name</label><br>
+									<input type="text" class="input-field">
+								
+								</div>
+								<div data-aos="fade-left" class="username-field">
+									<label for="email" class="label-field">Email</label><br>
+									<input type="email" name="email" class="input-field" autocomplete required>
+								</div>
+								<div data-aos="fade-right" class="username-field">
+									<label for="number" class="label-field">Contact Number</label><br>
+									<input type="number" class="input-field">
+								
+								</div>
+								<div data-aos="fade-left" class="username-field">
+									<label for="name" class="label-field">How can I help you?</label><br>
+									<textarea rows="5" class="input-field"></textarea>
+								
+								</div>
+								<divclass="username-field">
+									<button id="sign_in" class="btn-sign-in" type="submit" name="sign-in">Send</button>
+								</divclass=>
+								<!-- <div class="username-field">
+									<label id="login_error" class="login_error"></label><br>
+								</div> -->
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-5 mb-lg-2">
+						<p class="mb-5">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+						<hr class="bg-primary">
+						<h2 class="my-4">Social Contact</h2>
+						<a class="m-3"href="https://www.facebook.com/win.bautista.1088"><i class="fa fa-facebook-square fa-2xl" aria-hidden="true"></i></a>
+						<a class="m-3" href="https://github.com/sssmmmbbb"><i class="fa fa-github fa-2xl" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+	</main>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>	
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+	
+	duration: 2000
+});
+</script>
+</body>
+</html>
