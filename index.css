@@ -5,6 +5,11 @@
 	padding: 0;
 	box-sizing: border-box;
 } */
+
+.border-nav {
+	box-shadow: 0px 2px 5px 0px gray;
+}
+
 .f-size-cus{
 	font-size: 18px;
 	font-weight: bold;
