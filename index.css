@@ -486,4 +486,12 @@ overflow-y:auto;
 		height: 300px !important;
 		width: 300px !important;
 	}
+	.profile-details h3 + h1, .profile-details h3+h1+div {
+		color: #3746EC;
+		font-size: 12px;
+	}
+	.profile-details h3 {
+		color: black;
+		font-size: 25px;
+	}
 }
