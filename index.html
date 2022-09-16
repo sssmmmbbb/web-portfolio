@@ -10,8 +10,9 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/51460444e6.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="text-center">
 	<!-- Navbar Start -->
+
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 	  <a class="navbar-brand font-weight-bold logo" href="#home">Sherwin</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,23 +38,24 @@
 		    </ul>
  		</div>
 	</nav>
-	<!-- Navbar End -->
-	<main class="container-fluid text-center my-auto display-flexcustom">
 	
-			<div id="home" class="profile-section min-vh-100 col-sm-12">
-				<!-- Profile Section -->
-				<section class="profile-image col-md-12 col-lg-6 col-sm-12">
-					<img data-aos="zoom-in" class="mt-5 mt-md-0 rounded-circle img-border" src="./images/profile.jpg" alt="Profile Picture of a Handsome Person" width="350" height="350">
-					<div data-aos="fade-right" class="floating-object1">
-						<p>Frontend Developer</p>
-					</div>
-					<div data-aos="fade-left" class="floating-object2">
-						<p>Backend Developer</p>
-					</div>
+	<!-- Navbar End -->
+    <main class="container-fluid text-center">
+        
+		<div id="home" class="row mx-0 mt-5 pt-5">
+			<!-- <div class="col-lg-12 col-md-12 col-sm-12 col-12"> -->
+				<section class=" col-lg-4 mt-5 order-1 order-lg-2 min-vh-100 mx-auto ">
+					<img data-aos="zoom-in" class="col-lg-2 mx-auto mt-md-0 rounded-circle img-border my-auto col-lg-8 col-md-6 col-sm-4" src="./images/profile.jpg" alt="Profile Picture of a Handsome Person" width="250" height="250">
+						<div data-aos="fade-right" class="floating-object1">
+							<p>Frontend Developer</p>
+						</div>
+						<div data-aos="fade-left" class="floating-object2">
+							<p>Backend Developer</p>
+						</div>
 					<img data-aos="fade-down-left" class="floating-object3" src="./images/airplane.png" alt="airplane" width="100" height="100">
 				</section>
-				<section class="profile-details col-md-12 col-lg-6 col-sm-12">
-					<div>
+				<section class="profile-details col-lg-4 mx-auto mt-lg-5 order-2 order-lg-1  ">
+					<div class="col-10 mx-auto">
 						<h3>Hi I am</h3>
 						<h1>
 							<div class="row name-title-highlight">
@@ -71,65 +73,60 @@
 						<h5>Frontend Developer</h5>
 						<h6 class="text-muted">From Makati, Philippines</h6>
 					</div>
-					<div>
-						<a href="#contactme"><button class="btn-cus mt-4">Hire me</button></a>
+					<div class="mx-auto col-12">
+						<a href="#contactme"><button class="btn-cus mt-4 mx-auto">Hire me</button></a>
 					</div>
 				</section>
-				
-			</div>
+			<!-- </div> -->
+		
 			
-			<div data-aos="fade-up" data-aos-duration="3000" id="aboutme" class="about-me-section min-vh-100 col-sm-12">
-				<hr>
-				<div data-aos="flip-down" class="pt-5 pt-md-5"><h2>About Me</h2></div>
+		</div>
+		
+		<div id="aboutme" class="about-me-section row min-vh-100">
+			<h2 class="col-12 tex-blue">About Me</h2>
+			<section class="col-lg-6 my-auto">
+				<p class="text-lg-left"><span>Hi I'm </span><span class="border-bottom border-primary">Sherwin Bautista</span></p>
+				<p class="text-lg-left">I'm a web developer located in Makati Philippines.</p>
+				<p class="text-lg-left">I have a serious passion in computer programming and I love to turn ideas into reality.
+				<p class="text-lg-left">I'm looking for interesting projects where I can get an experience with new
+				  technologies and can apply my skills. I'm open to any specific projects as you need :)</p>
 				
-				<div class="container-fluid mt-3">
-					
+			</section>
+			
+			<section class="col-lg-6">
+				<h1 class=" col-12">Skills</h1>
+				<div class="parent-card col-lg-12">
 					<div class="row">
-						<div class="col-md-8 col-lg-6 pt-5 mx-auto">
-							<p class="text-lg-left"><span>Hi I'm </span><span class="border-bottom border-primary">Sherwin Bautista</span></p>
-							<p class="text-lg-left">I'm a web developer located in Makati Philippines.</p>
-							<p class="text-lg-left">I have a serious passion in computer programming and I love to turn ideas into reality.
-							<p class="text-lg-left">I'm looking for interesting projects where I can get an experience with new
-							  technologies and can apply my skills. I'm open to any specific projects as you need :)</p>
-							
+						<div data-aos="fade-right" class="skillOne card-left col-lg-6 col-sm-8 offset-1 mx-auto my-auto">
+							<img src="./images/blueheart.png" alt="emoji" width="70" height="70">
+							<h3>Frontend</h3>
+							<p>HTML, CSS, Bootstrap</p>
 						</div>
-						<div class="col-md-12 col-lg-6">
-							<h1 class="d-lg-none .d-lg-block">Skills</h1>
-							<div class="parent-card mt-5 pt-2">
-								<div data-aos="fade-right" class="skillOne card-left">
-									<img src="./images/blueheart.png" alt="emoji" width="70" height="70">
-									<h3>Frontend</h3>
-									<p>HTML, CSS, Bootstrap</p>
-								</div>
-
-								<div class="card-right pt-2">
-									<div data-aos="fade-down"  class="skillTwo">
-										<img src="./images/blueapproved.webp" alt="emoji" width="100" height="70">
-										<h3>Backend</h3>
-										<p>Javascript, PHP, MySql</p>
-									</div>
-									<div data-aos="fade-up" class="skillThree mt-2">
-										<img src="./images/bluecool.png" alt="emoji" width="100" height="70">
-										<h3>Fullstack</h3>
-										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi id sequi deserunt</p>
-									</div>
-								</div>
+		
+						<div class="card-right pt-2 col-lg-4 offset-lg-1 col-10 offset-1">
+							<div data-aos="fade-down"  class="skillTwo mx-auto">
+								<img src="./images/blueapproved.webp" alt="emoji" width="70px" height="70">
+								<h3>Backend</h3>
+								<p>Javascript, PHP, MySql</p>
 							</div>
-							
+							<div data-aos="fade-up" class="skillThree mt-2 mx-auto">
+								<img src="./images/bluecool.png" alt="emoji" width="70px" height="70">
+								<h3>Fullstack</h3>
+								<p>HTML, CSS, Bootstrap, Javascript, Php, Mysql Ajax</p>
+							</div>
 						</div>
-						
-						
 					</div>
 				</div>
-
 				
-			</div>
-			
-			<div data-aos="fade-up" data-aos-duration="3000" id="project" class="min-vh-100 col-sm-12">
-				<h2 class="pt-5">Other Projects</h2>
-				<div class="d-lg-flex justify-content-around p-md-5 text-light">
+			</section>
+		</div>
+
+		<div id="project" class="row min-vh-100">
+			<div data-aos="fade-up" data-aos-duration="3000" id="project" class="col-lg-10 col-md-10 col-sm-10 col-10 mx-auto">
+				<h2 class="py-5 col-12">Other Projects</h2>
+				<div class="row">
 					<!-- HTML Card Start -->
-					<div data-aos="fade-right" class="col-lg-6 mb-5 mb-lg-2">
+					<div data-aos="fade-right" class="col-lg-6 col-md-6 col-sm-6 mx-auto mb-5 mb-lg-5">
 						<div class="card-body bg-custom ">
 							<img src="./images/paluwagan.png" class="card-img-top" alt="Project Image" height="400px">
 							<h5 class="card-title mt-3 text-black">Paluwagan tracker</h5>
@@ -143,8 +140,8 @@
 					<!-- HTML Card END -->
 					
 					<!-- Node JS Card Start -->
-					<div data-aos="fade-left" class="col-lg-6 mb-5 mb-lg-2">
-						<div class="card-body bg-custom ">
+					<div data-aos="fade-left" class="col-lg-6 col-md-6 col-sm-6 mx-auto mb-5 mb-lg-5">
+						<div class="card-body bg-custom">
 							<img src="./images/messenger.png" class="card-img-top" alt="Project Image">
 							<h5 class="card-title mt-3 text-black">Simple Messenger app</h5>
 							<h6 class="card-subtitle text-muted mb-2">Web based with ajax support</h6>
@@ -157,14 +154,17 @@
 					<!-- Node JS Card END -->
 				</div>
 			</div>
-			<div id="gallery" class="min-vh-100 col-sm-12">
-				<h2 class="pt-5">Gallery</h2>
-				<div class="d-lg-flex justify-content-around p-md-5 text-light">
+		</div>
+					
+		<div id="gallery" class="row min-vh-100">
+			<div class="col-lg-12">
+				<h2 class="py-5">Gallery</h2>
+				
 					<!-- HTML Card Start -->
-					<div data-aos="zoom-in" class="col-lg-6 mb-5 mb-lg-2">
-						<div class="card-body bg-custom2 col-md-6 col-lg-12 col-sm-8 mx-auto">
+					<div data-aos="zoom-in" class="col-lg-6 mb-5 mb-lg-2 mx-auto">
+						<div class="card-body bg-custom2 col-lg-10 col-8 mx-auto">
 							<div class="row mt-md-2 text-center">
-								<div class="offset-xl-1 offset-lg-1 col-lg-10 col-xl-10 offset-md-1 col-md-10 col-sm-10 offset-sm-1 col-6 offset-3">
+								<div class="col-lg-12 col-10 mx-auto">
 									<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 										<ol class="carousel-indicators">
 											<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -175,10 +175,10 @@
 											<li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
 											<li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
 											<li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
-
+		
 										</ol>
 										<div class="carousel-inner">
-											<div class="carousel-item active">
+											<div class="carousel-item active mx-auto">
 												<img src="./images/paluwagan.png" class="d-block w-100" alt="...">
 												<div class="carousel-caption d-none d-md-block">
 													
@@ -253,60 +253,67 @@
 					</div>
 					<!-- HTML Card END -->
 				
-				</div>
+				
 			</div>
-			<div data-aos="fade-up" id="contactme" class="contact-me-section min-vh-100 col-sm-12">
+		</div>
+		
+		<div id="contactme" class="row min-vh-100">
+			<div data-aos="fade-up" id="contactme" class="contact-me-section col-lg-12">
 				<h1>Let's get in touch</h1>
 			
-				<div class="contact-me-section">
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-lg-6 border border 1">
+							
+							<div class="login-title pt-3"></div>
+								<div data-aos="zoom-in" class="login-form mx-auto">
+									<center><H2 class="f-size-cus">Send me a message</H2></center>
 					
-					<div class="text-center col-lg-4 mb-5 mb-lg-2">
-						
-						<div class="login-title pt-5"></div>
-							<div data-aos="zoom-in" class="login-form">
-								<center><H2 class="f-size-cus">Send me a message</H2></center>
-				
-				
-							<form action="" method="POST">
-								<div class="username-field">
-									<label for="name" class="label-field">Name</label><br>
-									<input type="text" class="input-field">
-								
-								</div>
-								<div class="username-field">
-									<label for="email" class="label-field">Email</label><br>
-									<input type="email" name="email" class="input-field" autocomplete required>
-								</div>
-								<div class="username-field">
-									<label for="number" class="label-field">Contact Number</label><br>
-									<input type="number" class="input-field">
-								
-								</div>
-								<div class="username-field">
-									<label for="name" class="label-field">How can I help you?</label><br>
-									<textarea rows="5" class="input-field"></textarea>
-								
-								</div>
-								<divclass="username-field">
-									<button id="sign_in" class="btn-sign-in" type="submit" name="sign-in">Send</button>
-								</divclass=>
-								<!-- <div class="username-field">
-									<label id="login_error" class="login_error"></label><br>
-								</div> -->
-							</form>
+					
+								<form action="" method="POST">
+									<div class="username-field">
+										<label for="name" class="label-field">Name</label><br>
+										<input type="text" class="input-field">
+									
+									</div>
+									<div class="username-field">
+										<label for="email" class="label-field">Email</label><br>
+										<input type="email" name="email" class="input-field" autocomplete required>
+									</div>
+									<div class="username-field">
+										<label for="number" class="label-field">Contact Number</label><br>
+										<input type="number" class="input-field">
+									
+									</div>
+									<div class="username-field">
+										<label for="name" class="label-field">How can I help you?</label><br>
+										<textarea rows="5" class="input-field"></textarea>
+									
+									</div>
+									<divclass="username-field">
+										<button id="sign_in" class="btn-sign-in" type="submit" name="sign-in">Send</button>
+									</divclass=>
+									<!-- <div class="username-field">
+										<label id="login_error" class="login_error"></label><br>
+									</div> -->
+								</form>
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 mb-5 mb-lg-2">
-						<p class="mb-5">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
-						<hr class="bg-primary">
-						<h2 class="my-4">Social Contact</h2>
-						<a class="m-3"href="https://www.facebook.com/win.bautista.1088"><i class="fa fa-facebook-square fa-2xl" aria-hidden="true"></i></a>
-						<a class="m-3" href="https://github.com/sssmmmbbb"><i class="fa fa-github fa-2xl" aria-hidden="true"></i></a>
+						<div class="col-lg-6 my-auto">
+							<p class="mb-5">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+							<hr class="bg-primary">
+							<h2 class="my-4">Social Contact</h2>
+							<a class="m-3"href="https://www.facebook.com/win.bautista.1088"><i class="fa fa-facebook-square fa-2xl" aria-hidden="true"></i></a>
+							<a class="m-3" href="https://github.com/sssmmmbbb"><i class="fa fa-github fa-2xl" aria-hidden="true"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
-	</main>
-
+		</div>			
+            
+        
+        
+    </main>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>	
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
